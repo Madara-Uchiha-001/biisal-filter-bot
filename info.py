@@ -21,7 +21,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 USERNAME = environ.get('USERNAME', "https://telegram.me/ikigai_bots")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002245180792'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/MxvieArena')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002178147337').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002214630123').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://kivog48443:1234@cluster0.5u9lm3f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
@@ -31,7 +31,7 @@ QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/d676540fc7781600a94b2.j
 START_IMG = environ.get('START_IMG', 'https://graph.org/file/e4bac93f059b3807fbe62.jpg')
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002133624076'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002210802816'))
-URL = environ.get('URL', 'google.com')
+URL = environ.get('URL', 'telegram.com/MS_BoTz_F2L_BOT')
 STICKERS_IDS = ('CAACAgEAAxkBAAKxzmaSGZblFwKKI1fblneZGAvV7BpDAALjBQACOASQRDgYmqwTaWzbNQQ').split()
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '300'))
 IS_VERIFY = is_enabled('IS_VERIFY', True)
