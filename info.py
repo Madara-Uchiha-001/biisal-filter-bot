@@ -17,7 +17,7 @@ API_ID = int(environ.get('API_ID', '26676191'))
 API_HASH = environ.get('API_HASH', '35a7418227d4cc465a482530ee1b4555')
 BOT_TOKEN = environ.get('BOT_TOKEN', '7215697885:AAH5xaSJ1YWlucy8QtF87dMDOjS4c9-nhGw')
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5964367469', '5745818770').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5964367469 5745818770').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/ikigai_bots")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002245180792'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/MxvieArena')
